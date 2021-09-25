@@ -1,0 +1,65 @@
+#anchor1 {
+    -fx-background-color: linear-gradient(to right, #00b09b, #96c93d);
+/*    -fx-background-color:  linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12); */
+    -fx-background-radius: 1em;
+}
+
+#anchor2 {
+    -fx-background-color: linear-gradient(to right, #23074d, #cc5333);
+    -fx-background-radius: 1em;
+}
+.button {
+    -fx-background-color: #8cd3ff;
+    -fx-background-radius: 10;
+}
+
+.button:hover {
+    -fx-background-color: #0095f0;
+    -fx-cursor: hand;
+}
+
+#noacctBtn {
+    -fx-background-color: transparent;
+}
+
+#noacctBtn:hover {
+    -fx-text-fill: #8cd3ff;
+    -fx-cursor: hand;
+}
+
+#loginScreen {
+    -fx-background-color: transparent;
+}
+
+#loginScreen:hover {
+    -fx-text-fill: #8cd3ff;
+    -fx-cursor: hand;
+}
+
+#imapatientBtn {
+    -fx-background-color: transparent;
+}
+
+#imapatientBtn:hover {
+    -fx-text-fill: #8cd3ff;
+    -fx-cursor: hand;
+}
+
+#profileImageBtn {
+    -fx-background-color: transparent;
+    -fx-background-size: 75px;
+    -fx-pref-width: 75px;
+    -fx-pref-height: 75px;
+    -fx-background-radius: 50%;
+/*    -fx-background-image: url('assets/user.png'); */
+    -fx-border-style: dotted;
+}
+
+#specialty {
+    -fx-prompt-text-fill: #F5F5F5;
+}
+
+#fileDir {
+    -fx-background-color: transparent;
+    -fx-text-fill: transparent;
+}

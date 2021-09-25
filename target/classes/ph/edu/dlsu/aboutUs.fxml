@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="300.0" prefWidth="600.0" stylesheets="@stylesheets/diagnosis.css" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ph.edu.dlsu.AboutUsController">
+   <children>
+      <Label layoutX="232.0" layoutY="29.0" text="About Us" textFill="WHITE">
+         <font>
+            <Font name="Script MT Bold" size="36.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="225.0" layoutY="98.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@stylesheets/assets/tyrone.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="52.0" layoutY="98.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@stylesheets/assets/jeffrey.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="171.0" layoutX="396.0" layoutY="98.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@stylesheets/assets/pogi-ko-talaga2.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="83.0" layoutY="257.0" text="Jeffrey Cervantes" />
+      <Label layoutX="272.0" layoutY="257.0" text="Tyrone Go" />
+      <Label layoutX="437.0" layoutY="257.0" text="Joshua Torre" />
+      <Label layoutX="173.0" layoutY="277.0" text="BS in Computer Engineering || De La Salle University" />
+      <Button fx:id="exitBtn" layoutX="562.0" layoutY="14.0" mnemonicParsing="false" onAction="#exit" style="-fx-background-color: transparent;" text="X" />
+   </children>
+</AnchorPane>

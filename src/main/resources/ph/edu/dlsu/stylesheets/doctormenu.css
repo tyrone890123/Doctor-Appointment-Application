@@ -1,0 +1,139 @@
+.root {
+    -fx-background-color: white;
+    -fx-background-radius: 1em;
+}
+
+#logoutBtn {
+    -fx-background-color: transparent;
+}
+
+#logoutBtn:hover {
+    -fx-text-fill: #8cd3ff;
+    -fx-cursor: hand;
+}
+
+#topPanel {
+    -fx-background-color: linear-gradient(to right, #00b09b, #96c93d);
+    -fx-background-radius: 10 10 0 0;
+}
+
+
+
+#topPanel1 {
+    -fx-background-color: linear-gradient(to right, #23074d, #cc5333);
+    -fx-background-radius: 10 10 0 0;
+}
+
+#topPanel2 {
+    -fx-background-color: linear-gradient(to right, #23074d, #cc5333);
+    -fx-background-radius: 10 10 0 0;
+}
+
+#leftPanel {
+    -fx-background-color: white;
+    -fx-background-radius: 1em;
+}
+
+#middlePanel{
+    -fx-background-color: white;
+    -fx-background-radius: 1em;
+}
+.button {
+    -fx-background-color: #8cd3ff;
+    -fx-background-radius: 10;
+}
+
+.button:hover {
+    -fx-background-color: #0095f0;
+    -fx-cursor: hand;
+}
+#homeBtn {
+    -fx-background-image: url("assets/home.png");
+    -fx-background-size: 75px;
+    -fx-pref-width: 75px;
+    -fx-pref-height: 75px;
+}
+#checkupBtn {
+    -fx-background-image: url("assets/checkup.png");
+    -fx-background-size: 75px;
+    -fx-pref-width: 75px;
+    -fx-pref-height: 75px;
+}
+#schedBtn {
+    -fx-background-image: url("assets/schedule.png");
+    -fx-background-size: 75px;
+    -fx-pref-width: 75px;
+    -fx-pref-height: 75px;
+}
+
+#interactionBtn {
+    -fx-background-image: url("assets/interaction.png");
+    -fx-background-size: 75px;
+    -fx-pref-width: 75px;
+    -fx-pref-height: 75px;
+}
+
+#riskBtn {
+    -fx-background-image: url("assets/risk.png");
+    -fx-background-size: 75px;
+    -fx-pref-width: 75px;
+    -fx-pref-height: 75px;
+}
+
+
+#checkupLbl {
+    -fx-text-fill: linear-gradient(to right, #00b09b, #96c93d);
+    -fx-font-family: "Script MT Bold";
+}
+
+#scheduleLbl {
+    -fx-text-fill: linear-gradient(to right, #00b09b, #96c93d);
+    -fx-font-family: "Script MT Bold";
+}
+
+#welcomeLbl {
+    -fx-text-fill: linear-gradient(to right, #00b09b, #96c93d);
+    -fx-font-family: "Script MT Bold";
+}
+
+
+.table-view .column-header-background{
+    -fx-background-color: linear-gradient(to bottom, #1dbbdd44, #93f9b944);
+    -fx-background-radius: 7px 7px 0px 0px;
+    -fx-background-insets: 0 11px 0 0;
+    -fx-padding: 0 0 5px 0;
+}
+
+.table-view .column-header {
+    -fx-background-color: transparent;
+}
+
+.text-field {
+    -fx-background-color: #f5f5f5;
+}
+
+.date-picker > .text-field {
+    -fx-background-color:
+            linear-gradient(to bottom, derive(-fx-text-box-border, -10%), -fx-text-box-border),
+            linear-gradient(from 0px 0px to 0px 5px, derive(-fx-control-inner-background, -9%), -fx-control-inner-background);
+    -fx-background-insets: 1 0 1 1;
+    -fx-background-radius: 2 0 0 2;
+}
+
+.date-picker:focused > .text-field,
+.date-picker > .text-field:focused {
+    -fx-background-color:
+            -fx-control-inner-background,
+            -fx-faint-focus-color,
+            linear-gradient(from 0px 0px to 0px 5px, derive(-fx-control-inner-background, -9%), -fx-control-inner-background);
+    -fx-background-insets: 1 0 1 1, 1 0 1 1, 3 2 3 3;
+    -fx-background-radius: 2 0 0 2, 1 0 0 1, 0;
+}
+
+.scroll-pane {
+    -fx-background-color: whitesmoke;
+}
+
+@font-face {
+    src: url("fonts/SCRIPTBL.ttf");
+}
